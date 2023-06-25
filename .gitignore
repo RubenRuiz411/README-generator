@@ -1,1 +1,4 @@
 .DS_Store
+/Develop/package.json
+/Develop/package-lock.json
+/node-modules
