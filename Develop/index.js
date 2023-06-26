@@ -8,28 +8,23 @@ const genMarkdown = require("./utils/generateMarkdown.js")
 const questions = [
     {
         type: 'input',
+        name: 'title',
+        message: "ReadMe Title:",
+    },
+    {
+        type: 'input',
         name: 'description',
         message: "ReadMe Description:",
     },
     {
         type: 'input',
-        name: 'motivation',
-        message: "What was your motivation?",
+        name: 'tableofcontents',
+        message: "Table of Contents:",
     },
     {
         type: 'input',
-        name: 'project',
-        message: "Why did you build this project?",
-    },
-    {
-        type: 'input',
-        name: 'solve',
-        message: "What problem does it solve?",
-    },
-    {
-        type: 'input',
-        name: 'learn',
-        message: "What did you learn?",
+        name: 'installation',
+        message: "Installation:",
     },
     {
         type: 'input',
@@ -37,16 +32,33 @@ const questions = [
         message: "Usage:",
     },
     {
-        type: 'input',
-        name: 'credits',
-        message: "Credits:",
-    },
-    {
         type: 'list',
         name: 'license',
         message: "What license would you like?",
         choices: ["MIT", "AGP", "GPL", "none",]
     },
+    {
+        type: 'input',
+        name: 'contributing',
+        message: "Contributing:",
+    },
+    {
+        type: 'input',
+        name: 'tests',
+        message: "Tests:",
+    },
+    {
+        type: 'input',
+        name: 'github',
+        message: "Enter GitHub username:",
+    },
+    {
+        type: 'input',
+        name: 'email',
+        message: "Enter email address:",
+    },
+
+
 ];
 
 // function that sends data from questions to function in other JS file (generateMarkdown.js) and writes new mark down file 
