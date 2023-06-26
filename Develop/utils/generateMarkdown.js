@@ -1,3 +1,4 @@
+// function to dynamically generate a badge with static green color and license of choice, if none is selected no badge is created
 function renderLicenseBadge(license) {
   if (license=== "none" ){
     return ""    
@@ -5,7 +6,7 @@ function renderLicenseBadge(license) {
     return `![license](https://img.shields.io/badge/license-${license}-green)`
   }
 }
-
+// generates readme using template literal with choice data from inquirer prompt within "index.js" 
 function generateMarkdown(data) {
   var readMe = `
 # README ${renderLicenseBadge(data.license)}
