@@ -1,25 +1,25 @@
 
-# README ![license](https://img.shields.io/badge/license-MIT-green)
+# README ![license](https://img.shields.io/badge/license-AGP-green)
 
 ## Description
 
-Read me description
+test
 
 - What was your motivation?
 
-To complete my homework.
+test
 
 - Why did you build this project? 
 
-See above
+test
 
 - What problem does it solve?
 
-Having to create a README from scratch
+test
 
 - What did you learn?
 
-how to use nodejs
+test
 
 ## Installation
 
@@ -27,11 +27,11 @@ N/A
 
 ## Usage
 
-to create readme
+test
 
 ## Credits
 
-undefined
+test
 
 ## License
 
