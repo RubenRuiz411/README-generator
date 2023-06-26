@@ -1,25 +1,25 @@
 
-# README ![license](https://img.shields.io/badge/license-AGP-green)
+# README ![license](https://img.shields.io/badge/license-MIT-green)
 
 ## Description
 
-test
+Description for Test Read Me
 
 - What was your motivation?
 
-test
+Motivation
 
 - Why did you build this project? 
 
-test
+To Learn
 
 - What problem does it solve?
 
-test
+Having to create README.md's from scratch.
 
 - What did you learn?
 
-test
+how to use NodeJS
 
 ## Installation
 
@@ -27,11 +27,11 @@ N/A
 
 ## Usage
 
-test
+N/A
 
 ## Credits
 
-test
+UCLA Extension FS Bootcamp Instructors and TA's.
 
 ## License
 

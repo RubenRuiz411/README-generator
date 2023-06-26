@@ -55,7 +55,9 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ## Video
 
+![video](/imgs/readmegiffile.gif)
 
+[Full Video](/imgs/readmegeneratorvideo.mp4).
 
 ## Badge
 
