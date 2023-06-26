@@ -9,41 +9,26 @@ function renderLicenseBadge(license) {
 // generates readme using template literal with choice data from inquirer prompt within "index.js" 
 function generateMarkdown(data) {
   var readMe = `
-# README ${renderLicenseBadge(data.license)}
+# ${data.title} README ${renderLicenseBadge(data.license)}
 
 ## Description
 
-${data.description}
+- ${data.description}
 
-- What was your motivation?
+## Table of Contents:
 
-${data.motivation}
+- ${data.tableofcontents}
 
-- Why did you build this project? 
+## Installation:
 
-${data.project}
+- ${data.installation}
 
-- What problem does it solve?
+## Usage:
 
-${data.solve}
+- ${data.usage}
 
-- What did you learn?
 
-${data.learn}
-
-## Installation
-
-N/A
-
-## Usage
-
-${data.usage}
-
-## Credits
-
-${data.credits}
-
-${data.license !== "none" ? `## License
+${data.license !== "none" ? `## License:
 
 Copyright 2021 Ruben Ruiz 
 
@@ -53,6 +38,20 @@ The above copyright notice and this permission notice shall be included in all c
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE
 `:``}
+
+## Contributing:
+
+- ${data.contributing}
+
+## Tests:
+
+- ${data.tests}
+
+## Questions:
+
+- ${data.questions}
+- GitHub: [${data.github}](https://github.com/${data.github}/)
+- Please reach out to me at ${data.email} for any questions. 
 `
 
 return readMe
