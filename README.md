@@ -25,9 +25,11 @@ How to use NodeJS/JavaScript to create new files.
 
 Clone repository and open cloned folder in VS Code. Within the VS Terminal install NPM and Inquirer. Once this is done, run the index.js file. 
 
-Install [NPM](https://docs.npmjs.com/cli/v6/commands/npm-install) by running "npm i -y" in the Terminal
-Install [Inquirer](https://www.npmjs.com/package/inquirer/v/8.2.4) by running "npm i inquirer@8.2.4" in the Terminal.
-Run index.js within the VS Code Terminal by entering "node index.js".
+-Install [NPM](https://docs.npmjs.com/cli/v6/commands/npm-install) by running "npm i -y" in the Terminal.
+
+-Install [Inquirer](https://www.npmjs.com/package/inquirer/v/8.2.4) by running "npm i inquirer@8.2.4" in the Terminal.
+
+-Run index.js within the VS Code Terminal by entering "node index.js".
 
 
 ## Usage
