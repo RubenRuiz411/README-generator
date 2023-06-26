@@ -54,7 +54,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ## Questions:
 
-- ${data.questions}
 - GitHub: [${data.github}](https://github.com/${data.github}/)
 - Please reach out to me at ${data.email} for any questions. 
 `
